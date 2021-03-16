@@ -1,0 +1,8 @@
+﻿{
+    "name": "MeadDrinker",
+    "version_number": "1.0.0",
+    "description": "Auto Drink Mead when needed",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.602"
+    ]
+}

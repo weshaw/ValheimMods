@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultPlugin", "DefaultPlugin\DefaultPlugin.csproj", "{9094452B-49D2-4E7D-A620-25B3BE230C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeadDrinker", "MeadDrinker\MeadDrinker.csproj", "{0A2B15B2-4B11-4BD2-A6BA-A38DC57884A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "valheim_Data", "valheim_Data", "{0D93A4F2-A6B0-4522-A8D6-78F44EC9D9CC}"
+	ProjectSection(SolutionItems) = preProject
+		valheim_Data\0Harmony.dll = valheim_Data\0Harmony.dll
+		valheim_Data\0Harmony.xml = valheim_Data\0Harmony.xml
+		valheim_Data\assembly_googleanalytics.dll = valheim_Data\assembly_googleanalytics.dll
+		valheim_Data\assembly_guiutils.dll = valheim_Data\assembly_guiutils.dll
+		valheim_Data\assembly_lux.dll = valheim_Data\assembly_lux.dll
+		valheim_Data\assembly_postprocessing.dll = valheim_Data\assembly_postprocessing.dll
+		valheim_Data\assembly_simplemeshcombine.dll = valheim_Data\assembly_simplemeshcombine.dll
+		valheim_Data\assembly_steamworks.dll = valheim_Data\assembly_steamworks.dll
+		valheim_Data\assembly_sunshafts.dll = valheim_Data\assembly_sunshafts.dll
+		valheim_Data\assembly_utils.dll = valheim_Data\assembly_utils.dll
+		valheim_Data\assembly_valheim.dll = valheim_Data\assembly_valheim.dll
+		valheim_Data\BepInEx.dll = valheim_Data\BepInEx.dll
+		valheim_Data\BepInEx.Harmony.dll = valheim_Data\BepInEx.Harmony.dll
+		valheim_Data\BepInEx.Harmony.xml = valheim_Data\BepInEx.Harmony.xml
+		valheim_Data\BepInEx.xml = valheim_Data\BepInEx.xml
+		valheim_Data\EditorToUnityLinkerData.json = valheim_Data\EditorToUnityLinkerData.json
+		valheim_Data\Mono.Security.dll = valheim_Data\Mono.Security.dll
+		valheim_Data\mscorlib.dll = valheim_Data\mscorlib.dll
+		valheim_Data\response.rsp = valheim_Data\response.rsp
+		valheim_Data\System.Configuration.dll = valheim_Data\System.Configuration.dll
+		valheim_Data\System.Core.dll = valheim_Data\System.Core.dll
+		valheim_Data\System.dll = valheim_Data\System.dll
+		valheim_Data\System.Xml.dll = valheim_Data\System.Xml.dll
+		valheim_Data\TypesInScenes.xml = valheim_Data\TypesInScenes.xml
+		valheim_Data\UnityEngine.AIModule.dll = valheim_Data\UnityEngine.AIModule.dll
+		valheim_Data\UnityEngine.AndroidJNIModule.dll = valheim_Data\UnityEngine.AndroidJNIModule.dll
+		valheim_Data\UnityEngine.AnimationModule.dll = valheim_Data\UnityEngine.AnimationModule.dll
+		valheim_Data\UnityEngine.AssetBundleModule.dll = valheim_Data\UnityEngine.AssetBundleModule.dll
+		valheim_Data\UnityEngine.AudioModule.dll = valheim_Data\UnityEngine.AudioModule.dll
+		valheim_Data\UnityEngine.ClothModule.dll = valheim_Data\UnityEngine.ClothModule.dll
+		valheim_Data\UnityEngine.CoreModule.dll = valheim_Data\UnityEngine.CoreModule.dll
+		valheim_Data\UnityEngine.DirectorModule.dll = valheim_Data\UnityEngine.DirectorModule.dll
+		valheim_Data\UnityEngine.dll = valheim_Data\UnityEngine.dll
+		valheim_Data\UnityEngine.GridModule.dll = valheim_Data\UnityEngine.GridModule.dll
+		valheim_Data\UnityEngine.IMGUIModule.dll = valheim_Data\UnityEngine.IMGUIModule.dll
+		valheim_Data\UnityEngine.InputLegacyModule.dll = valheim_Data\UnityEngine.InputLegacyModule.dll
+		valheim_Data\UnityEngine.InputModule.dll = valheim_Data\UnityEngine.InputModule.dll
+		valheim_Data\UnityEngine.ParticleSystemModule.dll = valheim_Data\UnityEngine.ParticleSystemModule.dll
+		valheim_Data\UnityEngine.Physics2DModule.dll = valheim_Data\UnityEngine.Physics2DModule.dll
+		valheim_Data\UnityEngine.PhysicsModule.dll = valheim_Data\UnityEngine.PhysicsModule.dll
+		valheim_Data\UnityEngine.ScreenCaptureModule.dll = valheim_Data\UnityEngine.ScreenCaptureModule.dll
+		valheim_Data\UnityEngine.SharedInternalsModule.dll = valheim_Data\UnityEngine.SharedInternalsModule.dll
+		valheim_Data\UnityEngine.SubsystemsModule.dll = valheim_Data\UnityEngine.SubsystemsModule.dll
+		valheim_Data\UnityEngine.TerrainModule.dll = valheim_Data\UnityEngine.TerrainModule.dll
+		valheim_Data\UnityEngine.TextRenderingModule.dll = valheim_Data\UnityEngine.TextRenderingModule.dll
+		valheim_Data\UnityEngine.TilemapModule.dll = valheim_Data\UnityEngine.TilemapModule.dll
+		valheim_Data\UnityEngine.UI.dll = valheim_Data\UnityEngine.UI.dll
+		valheim_Data\UnityEngine.UIElementsModule.dll = valheim_Data\UnityEngine.UIElementsModule.dll
+		valheim_Data\UnityEngine.UIModule.dll = valheim_Data\UnityEngine.UIModule.dll
+		valheim_Data\UnityEngine.UnityAnalyticsModule.dll = valheim_Data\UnityEngine.UnityAnalyticsModule.dll
+		valheim_Data\UnityEngine.UnityWebRequestModule.dll = valheim_Data\UnityEngine.UnityWebRequestModule.dll
+		valheim_Data\UnityEngine.UnityWebRequestWWWModule.dll = valheim_Data\UnityEngine.UnityWebRequestWWWModule.dll
+		valheim_Data\UnityEngine.VFXModule.dll = valheim_Data\UnityEngine.VFXModule.dll
+		valheim_Data\UnityEngine.VideoModule.dll = valheim_Data\UnityEngine.VideoModule.dll
+		valheim_Data\UnityEngine.VRModule.dll = valheim_Data\UnityEngine.VRModule.dll
+		valheim_Data\UnityEngine.XRModule.dll = valheim_Data\UnityEngine.XRModule.dll
+		valheim_Data\UnityLinkerToEditorData.json = valheim_Data\UnityLinkerToEditorData.json
+	EndProjectSection
+EndProjectGlobal
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9094452B-49D2-4E7D-A620-25B3BE230C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9094452B-49D2-4E7D-A620-25B3BE230C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9094452B-49D2-4E7D-A620-25B3BE230C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9094452B-49D2-4E7D-A620-25B3BE230C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CA40AB2-C69C-4D7A-978F-8598E55EF4EB}
+	EndGlobalSection
+EndGlobal
