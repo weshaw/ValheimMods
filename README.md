@@ -1,3 +1,3 @@
 # Valheim Mods
 
-## [Releases](./releases/)
+## [Releases](https://github.com/weshaw/ValheimMods/releases/)
