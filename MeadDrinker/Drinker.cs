@@ -24,8 +24,6 @@ namespace MeadDrinker
 
             if (healMead != null && hP <= Helper.Percent(MeadDrinker.healthPercent))
             {
-                if (healMead.m_stack < 5)
-                    healMead.m_stack = 5;
                 log.write("Try to drink MeadHealth");
                 __instance.UseItem(__instance.GetInventory(), healMead, false);
             }
@@ -51,8 +49,6 @@ namespace MeadDrinker
                 var tastyMead = Helper.GetItemByName(__instance, "MeadTasty");
                 if (tastyMead != null)
                 {
-                    if (tastyMead.m_stack < 5)
-                        tastyMead.m_stack = 5;
                     log.write("Try to drink MeadTasty");
                     __instance.UseItem(__instance.GetInventory(), tastyMead, false);
                 }
@@ -66,8 +62,6 @@ namespace MeadDrinker
 
                 if (staminaMead != null)
                 {
-                    if (staminaMead.m_stack < 5)
-                        staminaMead.m_stack = 5;
                     log.write("Try to drink MeadStamina");
                     __instance.UseItem(__instance.GetInventory(), staminaMead, false);
                 }
