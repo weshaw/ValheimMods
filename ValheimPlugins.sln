@@ -67,7 +67,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "valheim_Data", "valheim_Dat
 		valheim_Data\UnityEngine.XRModule.dll = valheim_Data\UnityEngine.XRModule.dll
 		valheim_Data\UnityLinkerToEditorData.json = valheim_Data\UnityLinkerToEditorData.json
 	EndProjectSection
-EndProjectGlobal
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gluttony", "Gluttony\Gluttony.csproj", "{AD27784F-3715-4083-A581-7A420290C8C8}"
+EndProject
+Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -77,6 +80,14 @@ EndProjectGlobal
 		{9094452B-49D2-4E7D-A620-25B3BE230C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9094452B-49D2-4E7D-A620-25B3BE230C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9094452B-49D2-4E7D-A620-25B3BE230C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2B15B2-4B11-4BD2-A6BA-A38DC57884A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2B15B2-4B11-4BD2-A6BA-A38DC57884A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2B15B2-4B11-4BD2-A6BA-A38DC57884A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2B15B2-4B11-4BD2-A6BA-A38DC57884A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD27784F-3715-4083-A581-7A420290C8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD27784F-3715-4083-A581-7A420290C8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD27784F-3715-4083-A581-7A420290C8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD27784F-3715-4083-A581-7A420290C8C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
